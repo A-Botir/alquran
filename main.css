@@ -4,13 +4,13 @@
   box-sizing: border-box;
   list-style: none;
   font-style: normal;
-  font-family: "Roboto";
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #fff;
 }
 
 body {
-  background-color: #f3dfdf;
+  background-color: #1b1616;
   line-height: 1.5;
   overflow-x: hidden;
 }
@@ -64,6 +64,79 @@ button {
   justify-content: space-between;
 }
 
-.wrapp{
-    width: 100%;
+.child_container {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.wrapp {
+  width: 100%;
+}
+
+.main {
+  flex-direction: column;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.info_search__group {
+  padding: 13px 10px 11px 0;
+  width: 371px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #fff;
+  gap: 15px;
+  background-color: rgb(33, 34, 34);
+  border-radius: 15px;
+}
+
+.info_search {
+  background: none;
+  outline: none;
+  border: none;
+  flex-grow: 1;
+  padding: 0 10px;
+}
+
+.info_search::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.info_search::after{
+  background: none;
+}
+
+.top_group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.surah_info {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.surah{
+  text-align: justify;
+}
+#page{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.main_line{
+  margin: 5px 0 25px 0;
+  background-color: #fff;
+  width: 100%;
 }
