@@ -103,15 +103,21 @@ button {
   background-color: transparent;
 }
 
+input[type="search"]:focus {
+  background-color: rgb(33, 34, 34);
+  border: none;
+  outline: none;
+}
+
+input[type="search"]:focus::-webkit-input-placeholder {
+  color: rgb(33, 34, 34);
+}
+
 .info_search::placeholder {
   color: rgba(255, 255, 255, 0.7);
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-}
-
-.info_search::after {
-  background: none;
 }
 
 .top_group {
@@ -129,6 +135,15 @@ button {
 .surah {
   text-align: justify;
 }
+
+#number {
+  border: solid #fff 1px;
+  border-radius: 50%;
+  text-align: center;
+  width: 22px;
+  height: 24px;
+}
+
 #page {
   margin-top: 10px;
   text-align: center;
